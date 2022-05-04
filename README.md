@@ -1,8 +1,11 @@
 ## <h1 align="center"> Osprey Social </h1>
-Trabalho em grupo de Projeto Integrador II. Ferramentas utilizadas: 
-<img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-<img align="center" alt="QT" height="30" width="40" src="https://user-images.githubusercontent.com/22009014/29492240-5db7c164-8597-11e7-89f2-585a018d4ade.png">
-<img align="center" alt="Vs" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"> <br>
+Trabalho em grupo de Projeto Integrador II
+<img align="right" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+<img align="right" alt="QT" height="30" width="40" src="https://user-images.githubusercontent.com/22009014/29492240-5db7c164-8597-11e7-89f2-585a018d4ade.png">
+<img align="right" alt="Vs" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png">
+
+<br>
+
 ## Autores
 <table align="center">
   <tr>
@@ -19,3 +22,8 @@ Trabalho em grupo de Projeto Integrador II. Ferramentas utilizadas:
   </tr>
 </table>
 
+## 
+
+<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey1.PNG" height="550">
+<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey2.PNG" height="550">
+<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey3.PNG" height="700">
