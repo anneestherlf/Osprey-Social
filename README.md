@@ -1,5 +1,6 @@
 ## <h1 align="center"> Osprey Social </h1>
 Trabalho em grupo de Projeto Integrador II
+
 <img align="right" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 <img align="right" alt="QT" height="30" width="40" src="https://user-images.githubusercontent.com/22009014/29492240-5db7c164-8597-11e7-89f2-585a018d4ade.png">
 <img align="right" alt="Vs" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png">
@@ -23,7 +24,8 @@ Trabalho em grupo de Projeto Integrador II
 </table>
 
 ## 
-
+<div align="center">
 <img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey1.PNG" height="550">
 <img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey2.PNG" height="550">
 <img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey3.PNG" height="700">
+</div>
