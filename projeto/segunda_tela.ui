@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>712</width>
+    <width>749</width>
     <height>648</height>
    </rect>
   </property>
@@ -14,9 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">
-
-background-color: rgb(255, 255, 255);
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0,), stop:1 rgba(51, 88, 109));
 
 </string>
   </property>
@@ -24,14 +22,15 @@ background-color: rgb(255, 255, 255);
    <widget class="QFrame" name="Aprensentao">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>20</y>
+      <x>30</x>
+      <y>10</y>
       <width>681</width>
       <height>551</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(71, 121, 152);</string>
+     <string notr="true">border-radius: 8px;
+background-color: rgb(232, 232, 232);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -42,8 +41,8 @@ background-color: rgb(255, 255, 255);
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>50</x>
-       <y>140</y>
+       <x>370</x>
+       <y>230</y>
        <width>141</width>
        <height>141</height>
       </rect>
@@ -58,21 +57,26 @@ background-color: rgb(255, 255, 255);
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>280</y>
+       <x>410</x>
+       <y>250</y>
        <width>231</width>
-       <height>21</height>
+       <height>31</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial Narrow</family>
+      </font>
+     </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;Você está Logado!!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000;&quot;&gt;Você está Logado!!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
      <property name="geometry">
       <rect>
-       <x>240</x>
-       <y>80</y>
+       <x>440</x>
+       <y>60</y>
        <width>171</width>
        <height>141</height>
       </rect>
@@ -90,16 +94,17 @@ background-color: rgb(255, 255, 255);
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>260</x>
-       <y>440</y>
+       <x>450</x>
+       <y>360</y>
        <width>161</width>
        <height>41</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 133, 199);
+      <string notr="true">background-color: rgb(0, 0, 0);
 font: 14pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(255, 255, 255);
+border-radius: 8px;
 
 
 </string>
@@ -108,6 +113,30 @@ color: rgb(255, 255, 255);
       <string>Logout</string>
      </property>
     </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>30</y>
+       <width>401</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../moça.PNG</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>pushButton</zorder>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -115,7 +144,7 @@ color: rgb(255, 255, 255);
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>712</width>
+     <width>749</width>
      <height>21</height>
     </rect>
    </property>

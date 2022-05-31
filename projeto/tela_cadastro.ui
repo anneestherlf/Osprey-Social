@@ -6,25 +6,30 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>709</width>
-    <height>773</height>
+    <width>746</width>
+    <height>848</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0,), stop:1 rgba(51, 88, 109));
+</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QFrame" name="Aprensentao">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>681</width>
+      <x>120</x>
+      <y>50</y>
+      <width>531</width>
       <height>731</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(71, 121, 152);</string>
+     <string notr="true">background-color: rgb(232, 232, 232);
+border-radius: 8px;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -35,38 +40,44 @@
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>590</y>
-       <width>171</width>
+       <x>180</x>
+       <y>570</y>
+       <width>161</width>
        <height>21</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Narrow</family>
+       <pointsize>14</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;Data de Nascimento:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;Data de Nascimento:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QDateEdit" name="dateEdit">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>620</y>
+       <x>200</x>
+       <y>600</y>
        <width>110</width>
        <height>22</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);
+      <string notr="true">color: rgb(0, 0, 0);
 </string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
      <property name="geometry">
       <rect>
-       <x>260</x>
-       <y>60</y>
+       <x>170</x>
+       <y>50</y>
        <width>171</width>
        <height>141</height>
       </rect>
@@ -84,14 +95,23 @@
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>290</x>
-       <y>660</y>
+       <x>180</x>
+       <y>650</y>
        <width>161</width>
        <height>41</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 133, 199);
+      <string notr="true">background-color: rgb(0, 0, 0);
 font: 14pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(255, 255, 255);
 
@@ -105,8 +125,8 @@ color: rgb(255, 255, 255);
     <widget class="QLineEdit" name="lineEdit">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>230</y>
+       <x>110</x>
+       <y>220</y>
        <width>311</width>
        <height>41</height>
       </rect>
@@ -125,8 +145,8 @@ border-radius: 15px;</string>
     <widget class="QLineEdit" name="lineEdit_2">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>280</y>
+       <x>110</x>
+       <y>270</y>
        <width>311</width>
        <height>41</height>
       </rect>
@@ -145,8 +165,8 @@ border-radius: 15px;</string>
     <widget class="QLineEdit" name="lineEdit_3">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>330</y>
+       <x>110</x>
+       <y>320</y>
        <width>311</width>
        <height>41</height>
       </rect>
@@ -168,8 +188,8 @@ border-radius: 15px;</string>
     <widget class="QLineEdit" name="lineEdit_4">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>390</y>
+       <x>110</x>
+       <y>370</y>
        <width>311</width>
        <height>41</height>
       </rect>
@@ -191,8 +211,8 @@ border-radius: 15px;</string>
     <widget class="QLineEdit" name="lineEdit_5">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>440</y>
+       <x>110</x>
+       <y>420</y>
        <width>311</width>
        <height>41</height>
       </rect>
@@ -214,8 +234,8 @@ border-radius: 15px;</string>
     <widget class="QLineEdit" name="lineEdit_6">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>490</y>
+       <x>110</x>
+       <y>470</y>
        <width>311</width>
        <height>41</height>
       </rect>
@@ -237,8 +257,8 @@ border-radius: 15px;</string>
     <widget class="QLineEdit" name="lineEdit_7">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>540</y>
+       <x>110</x>
+       <y>520</y>
        <width>311</width>
        <height>41</height>
       </rect>
@@ -264,7 +284,7 @@ border-radius: 15px;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>709</width>
+     <width>746</width>
      <height>21</height>
     </rect>
    </property>
