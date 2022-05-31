@@ -25,7 +25,7 @@ Trabalho em grupo de Projeto Integrador II
 
 ## 
 <div align="center">
-<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey1.PNG" height="550">
-<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey2.PNG" height="550">
-<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/osprey3.PNG" height="700">
+<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/updatetela1.PNG" height="550">
+<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/updatetela2.PNG" height="550">
+<img src="https://raw.githubusercontent.com/anneestherlf/Osprey-Social/main/images/updatetela3.PNG" height="700">
 </div>
